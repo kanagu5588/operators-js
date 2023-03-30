@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#submit1{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+#submit2{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}

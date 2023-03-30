@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic Operators</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container py-5 mt-5 bg-secondary">
+        <h1 class="text-center text-info">ARITHMETIC OPERATORS</h1>
+        <div class="row">
+            <div class="text-center py-5">
+                <label for="first input value" class="px-2 fs-5 text-white">First Input Value</label>
+                <input type="number" id="submit1">
+                <label for="second input value" class="px-2 fs-5 text-white">Second Input Value</label>
+                <input type="number" id="submit2">
+
+            </div>
+
+            <div class="dropdown text-center">
+                <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Arithmetic Operators
+                </button>
+                <ul class="dropdown-menu text-center bg-secondary">
+                  <li><a class="dropdown-item text-info" href="#"  onclick="add()">Add</a></li>
+                  <li><a class="dropdown-item text-info" href="#"  onclick="sub()">Sub</a></li>
+                  <li><a class="dropdown-item text-info" href="#"  onclick="mult()">Multiply</a></li>
+                  <li><a class="dropdown-item text-info" href="#"  onclick="div()">Divide</a></li>
+                  <li><a class="dropdown-item text-info" href="#"  onclick="mod()">Modulus</a></li>
+                </ul>
+              </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" ></script>
+    <script src="script.js"></script>
+</body>
+</html>
